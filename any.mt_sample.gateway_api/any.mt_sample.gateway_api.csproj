@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>MassTransitWebApplication</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MassTransit" Version="7.0.7-develop.3026" />
+      <PackageReference Include="MassTransit.Analyzers" Version="7.0.7-develop.3026" />
+      <PackageReference Include="MassTransit.AspNetCore" Version="7.0.7-develop.3026" />
+      <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="7.0.7-develop.3026" />
+      <PackageReference Include="MassTransit.RabbitMQ" Version="7.0.7-develop.3026" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Update="appsettings.Development.json">
+        <DependentUpon>appsettings.json</DependentUpon>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\any.mt_sample.contracts\any.mt_sample.contracts.csproj" />
+    </ItemGroup>
+
+
+</Project>

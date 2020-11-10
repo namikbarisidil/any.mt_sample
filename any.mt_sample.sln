@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "any.mt_sample.gateway_api", "any.mt_sample.gateway_api\any.mt_sample.gateway_api.csproj", "{5E8153C8-9C6F-468A-B60D-DB9C8ECAB646}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "any.mt_sample.contracts", "any.mt_sample.contracts\any.mt_sample.contracts.csproj", "{1F30946A-83F9-4FD2-B0E8-0B84F44A3ABF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "any.mt_sample.user_create_service", "any.mt_sample.user_create_service\any.mt_sample.user_create_service.csproj", "{688674E2-30C8-4798-B526-8E905D69CDF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E8153C8-9C6F-468A-B60D-DB9C8ECAB646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E8153C8-9C6F-468A-B60D-DB9C8ECAB646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E8153C8-9C6F-468A-B60D-DB9C8ECAB646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E8153C8-9C6F-468A-B60D-DB9C8ECAB646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F30946A-83F9-4FD2-B0E8-0B84F44A3ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F30946A-83F9-4FD2-B0E8-0B84F44A3ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F30946A-83F9-4FD2-B0E8-0B84F44A3ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F30946A-83F9-4FD2-B0E8-0B84F44A3ABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{688674E2-30C8-4798-B526-8E905D69CDF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688674E2-30C8-4798-B526-8E905D69CDF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688674E2-30C8-4798-B526-8E905D69CDF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688674E2-30C8-4798-B526-8E905D69CDF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
